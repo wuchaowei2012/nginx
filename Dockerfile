@@ -5,7 +5,8 @@
 #
 
 # Pull base image.
-FROM dockerfile/ubuntu
+# FROM dockerfile/ubuntu
+FROM coding-public-docker.pkg.coding.net/public/docker/nodejs:12
 
 # Install Nginx.
 RUN \
